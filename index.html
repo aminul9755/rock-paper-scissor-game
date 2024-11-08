@@ -20,6 +20,20 @@
     
       playGame ('scissors');
     " class="move-button"><img class="move-icon" src="images/scissors-emoji.png"></button>
+
+<p class="js-result result"></p>
+    
+<p class="js-moves"></p>
+
+<p class="js-score score "></p>
+
+<button class="reset-score-button" onclick="
+  score.wins = 0
+  score.losses = 0
+  score.ties = 0
+  localStorage.removeItem('score');
+  updateScoreElement();
+">Reset Score</button>
   </div>
   <script src="script.js"></script>
 </body>
