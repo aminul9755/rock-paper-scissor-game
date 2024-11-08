@@ -1,0 +1,29 @@
+/* GENERAL */
+body {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MAIN GAME */
+.main-game {
+  margin: 50px 50px;
+  border: 1px solid;
+  border-radius: 4px;
+  width: 400px;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 35px;
+  padding-bottom: 40px;
+  background: linear-gradient(180deg, rgb(9, 56, 142), rgb(31, 167, 140));
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
