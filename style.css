@@ -11,7 +11,7 @@ body {
   margin-top: 20px;
   display: grid;
   grid-template-columns: 550px auto;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 /* MAIN GAME */
@@ -20,7 +20,7 @@ body {
   border-radius: 20px;
   width: 550px;
   height: 600px;
-  padding-top: 35px;
+  padding-top: 30px;
   padding-left: 12px;
   padding-right: 10px;
   align-items: center;
@@ -84,5 +84,10 @@ body {
 .game-details {
   text-align: left;
   margin-left: 20px;
+  margin-right: 20px;
   margin-top: 20px;
+}
+
+.game-details-heading {
+  color:  rgb(255, 217, 94);
 }
